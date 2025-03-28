@@ -11,7 +11,7 @@ int checkUnterminatedComments(const char *filename) {
 
     char ch, prev = 0;
     int inComment = 0;
-    int x = 9;
+    int x = 12;
 
     while ((ch = fgetc(file)) != EOF) {
         if (inComment) {
