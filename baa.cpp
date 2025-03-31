@@ -6,7 +6,7 @@ int main() {
     
     cout << "Enter your name: ";
     cin >> name;
-    int a = 7;
+    int a = 6;
     
     cout << "Hello, " << name << "! Welcome to C++ programming." << endl;
     
